@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山师四时｜山东师范大学长清湖校园</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", SimSun, serif;
+            background-color: #f6f8fa;
+            color: #2c333a;
+            line-height: 1.7;
+        }
+        /* 头部横幅 */
+        header {
+            background: linear-gradient(135deg,#2b5899,#5088cc);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 42px;
+            letter-spacing: 4px;
+            margin-bottom:10px;
+            font-weight:normal;
+        }
+        header p {
+            font-size:19px;
+            opacity:0.9;
+        }
+        /* 导航栏 */
+        nav {
+            background-color:#273a50;
+            text-align:center;
+            padding:18px;
+        }
+        nav a {
+            color:#e8f0f9;
+            text-decoration:none;
+            margin:0 20px;
+            font-size:18px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color:#a0c8ff;
+        }
+        .wrap {
+            width:1140px;
+            margin:50px auto;
+        }
+        h2 {
+            color:#2b5899;
+            margin:40px 0 20px;
+            border-left:7px solid #3468b3;
+            padding-left:16px;
+            font-weight:normal;
+            font-size:26px;
+        }
+        .intro {
+            font-size:17px;
+            color:#444;
+            margin-bottom:30px;
+            text-indent:2em;
+        }
+        /* 卡片布局 */
+        .scene-card {
+            background:#ffffff;
+            border-radius:14px;
+            box-shadow: 0 4px 14px #d4e0ee;
+            padding:26px;
+            margin:30px 0;
+            display:flex;
+            gap:30px;
+            align-items:center;
+        }
+        .scene-card .text-box {
+            flex:1;
+        }
+        .scene-card h3 {
+            font-size:22px;
+            color:#273a50;
+            margin-bottom:10px;
+            font-weight:normal;
+        }
+        .scene-card p {
+            font-size:16px;
+            color:#444;
+            text-indent:2em;
+        }
+        .scene-card img {
+            width:340px;
+            height:250px;
+            object-fit:cover;
+            border-radius:12px;
+        }
+        footer {
+            background:#273a50;
+            color:#cbd5e1;
+            text-align:center;
+            padding:30px;
+            margin-top:80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>山师四时</h1>
+        <p>弘德明志，博学笃行｜长清湖畔，赴一场四季之约</p >
+    </header>
+    <nav>
+        <a href=" ">春序</a >
+        <a href="#summer">夏景</a >
+        <a href="#autumn">秋韵</a >
+        <a href="#winter">冬雪</a >
+        <a href="#youth">少年风华</a >
+    </nav>
+    <div class="wrap">
+        <p class="intro">
+            长清湖畔，山师藏着四季流转的诗意。春有牵牛缀篱，夏有浓荫蔽道；秋染银杏悬铃木，冬落白雪覆碑石。一草一木，一碑一路，皆是山师独有的书卷温柔。
+        </p >
+
+        <div id="spring">
+            <h2>春序 · 篱畔芳华</h2>
+            <div class="scene-card">
+                <img src="flower.jpg" alt="蓝色牵牛花">
+                <div class="text-box">
+                    <h3>篱上牵牛</h3>
+                    <p>浅蓝牵牛攀附于篱间，迎着晨光悄然舒展。细碎藤蔓缠绕草木，把春日的生机藏在校园角落，静候往来学子驻足一瞥。</p >
+                </div>
+            </div>
+        </div>
+
+        <div id="summer">
+            <h2>夏景 · 浓荫长夜</h2>
+            <div class="scene-card">
+                <img src="tree.jpg" alt="夏日银杏林荫">
+                <div class="text-box">
+                    <h3>林荫漫道</h3>
+                    <p>盛夏晴空，银杏舒展层层翠叶，枝叶筛落流云与天光。青石小路隐于林木之下，课余漫步，清风穿叶，消解盛夏燥热。</p >
+                </div>
+            </div>
+            <div class="scene-card">
+                <img src="wenmai.jpg" alt="文脉大道夜景">
+                <div class="text-box">
+                    <h3>文脉大道</h3>
+                    <p>夜色漫过校园，书卷石碑静静伫立。路灯流淌暖光，长路延伸向楼宇，书香随晚风漫延，是山师独有的静谧夜色。</p >
+                </div>
+            </div>
+        </div>
+
+        <div id="autumn">
+            <h2>秋韵 · 落木向晚</h2>
+            <div class="scene-card">
+                <img src="ginkgo.jpg" alt="黄昏银杏">
+                <div class="text-box">
+                    <h3>银杏向晚</h3>
+                    <p>日暮时分，银杏浸染上暖金，一地落叶铺成温柔锦缎。落日熔金，暮色缓缓漫过树梢，书写山师秋日最动人的篇章。</p >
+                </div>
+            </div>
+            <div class="scene-card">
+                <img src="autumn-platanus.jpg" alt="悬铃木秋景">
+                <div class="text-box">
+                    <h3>梧桐秋晴</h3>
+                    <p>晴空如洗，悬铃木换上金黄衣衫。枝叶在蓝天之下舒展，风过之时，黄叶轻轻飘落，校园秋意满目温柔。</p >
+                </div>
+            </div>
+            <div class="scene-card">
+                <img src="playground.jpg" alt="操场日落">
+                <div class="text-box">
+                    <h3>操场落日</h3>
+                    <p>夕阳垂落在远山之上，霞光铺满整片绿茵。晚风掠过跑道，学子漫步休憩，落日将校园揉进一片橘色温柔。</p >
+                </div>
+            </div>
+        </div>
+
+        <div id="winter">
+            <h2>冬雪 · 素裹书香</h2>
+            <div class="scene-card">
+                <img src="snow.jpg" alt="校训石雪景">
+                <div class="text-box">
+                    <h3>雪落校训石</h3>
+                    <p>大雪纷飞，素白落满碑石。“弘德明志，博学笃行”八字静静立于风雪，见证山师风骨，白雪衬文脉，清冷而庄重。</p >
+                </div>
+            </div>
+            <div class="scene-card">
+                <img src="snow-road.jpg" alt="雪天校园道路">
+                <div class="text-box">
+                    <h3>雪漫长街</h3>
+                    <p>漫天飞雪铺满校园长路，树枝挂满琼花。行人踏雪缓行，落雪无声，整个校园归于安宁，一片清简素色。</p >
+                </div>
+            </div>
+        </div>
+
+        <div id="youth">
+            <h2>少年风华</h2>
+            <div class="scene-card">
+                <img src="basketball.jpg" alt="篮球场">
+                <div class="text-box">
+                    <h3>球场青春</h3>
+                    <p>阳光斜落球场，一颗篮球静候少年。光影落在红绿场地，这里藏着山师学子热烈的青春，汗水与欢笑在此绽放。</p >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>山东师范大学长清湖校区｜四时风光，书卷长存</p >
+    </footer>
+</body>
+</html>
